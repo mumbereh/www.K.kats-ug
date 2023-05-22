@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #8989;
+  display: grid;
+}
+
+header {
+  display: flex;
+  background-color: blue;
+  text-align: center;
+}
+
+.heading {
+  margin-bottom: 20px;
+  margin-top: 5%;
+  font-size: 40px;
+  border-radius: 10%;
+  color: white;
+  text-align: center;
+}
+
+.cover-img {
+  display: flex;
+  width: 100%;
+  border-radius: 4%;
+  background-color: #eb0d0d;
+}
+
+.address {
+  text-align: center;
+  color: #fff;
+  font-size: 34px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  background: #fff;
+  border-radius: 16px;
+  width: 85%;
+  margin: 10px 10px 10px 10px;
+  padding: 20px;
+  margin-left: -2%;
+  margin-left: 15px;
+  font-size: 16px;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 5%;
+}
+
+.card-title {
+  font-size: 30px;
+  margin: 10px;
+  text-align: center;
+  color: #0a0ae4;
+}
+
+p {
+  border: 10px solid rgb(232, 232, 236);
+  border-radius: 5%;
+  padding: 5%;
+  font-size: 18px;
+  color: grey;
+}
+
+button {
+  width: fit-content;
+  padding: 20px;
+  background-color: blue;
+  border-radius: 10%;
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  border: #fff;
+}
+
+.customer h2 {
+  font-size: 30px;
+  margin: 10px;
+  text-align: center;
+  color: #0a0ae4;
+  border: 2px solid white;
+  background-color: white;
+}
+
+.customer img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.main-header {
+  justify-content: right;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+.customer h2{
+  margin-bottom: 20px;
+}
+
+.logo {
+  margin-right: auto;
+  margin-left: 155px;
+}
+
+.logo img {
+  margin-left: auto;
+  width: 20%;
+  border-radius: 20%;
+}
+
+.customer {
+  /* border: 3px solid blue; */
+  padding: 20px;
+  margin: 10px;
+  background-color: azure;
+}
